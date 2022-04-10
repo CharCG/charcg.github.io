@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    background-color: #101215;
+}
+
+
+/* Navigation Bar */
+.navigationBar {
+    align-items: center;
+    background-color: #101215;
+    box-shadow: 0 3px 15px #000;
+    display: flex;
+    justify-content: right;
+    padding: 20px 10%;
+}
+
+.navigationLinks {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+.navigationLinks li {
+    padding: 0px 25px;
+}
+
+.navigationLinks li a:hover {
+    color: white;
+}
+
+.navigationLinks a {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* Introduction */
+.introduction {
+    display: table;
+    font-family: 'Poppins', sans-serif;
+    height: 947px; /* 947px / 100vh */
+    margin: 15px 15px;
+    max-width: 666.6px; /* 666.6px / 500pt */
+    text-align: left;
+    width: 533.3px; /* 533.3px / 400pt */
+}
+
+.introduction .paragraph {
+    height: 600px;
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    margin-left: -262.5px;
+    margin-top: 0px;
+
+    width: 525px;
+}
+
+.introduction .paragraph h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.introduction .paragraph p {
+    color: #9b9b9b;
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+}

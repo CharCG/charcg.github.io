@@ -8,7 +8,7 @@
     --greyer: #777777;
     --shadow: #000;
 
-    --tosca: #63CCC5;
+    --main: #63CCC5;
 }
 
 body {
@@ -56,12 +56,26 @@ body {
 }
 
 .navigationLinks li a:hover {
-    color: var(--tosca);
+    color: var(--main);
 }
 
 .navigationLinks a {
     color: var(--light);
     text-decoration: none;
+}
+
+.navigationLinks a::after {
+    background: var(--light);
+    content: "";
+    display: block;
+    height: 2px;
+    transition: width .3s;
+    width: 0;
+}
+
+.navigationLinks a:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 
@@ -107,7 +121,7 @@ body {
 }
 
 .icon i:hover {
-    color: var(--tosca);
+    color: var(--main);
 }
 
 .footer a {
@@ -116,5 +130,5 @@ body {
 }
 
 .footer a:hover {
-    color: var(--tosca);
+    color: var(--main);
 }

@@ -91,10 +91,6 @@ body {
     font-size: 23px;
 }
 
-.paragraph span {
-    color: var(--tosca);
-}
-
 .paragraph p {
     color: var(--greyer);
     font-size: 18px;

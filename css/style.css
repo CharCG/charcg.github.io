@@ -8,7 +8,7 @@
     --greyer: #777777;
     --shadow: #000;
 
-    --main: #63CCC5;
+    --main: #39ACE7;
 }
 
 body {
@@ -103,6 +103,10 @@ body {
 .paragraph h3 {
     color: var(--light);
     font-size: 23px;
+}
+
+.typed-cursor {
+    color: var(--main);
 }
 
 .paragraph p {

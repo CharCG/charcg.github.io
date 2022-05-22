@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
 :root {
     --light: #f5f5f5;
@@ -7,13 +7,6 @@
     --grey: #9b9b9b;
     --greyer: #777777;
     --shadow: #000;
-
-    --main: #ffffff;
-}
-
-body {
-    background-color: var(--dark);
-    font-family: 'Poppins', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -36,26 +29,59 @@ body {
     background-color: var(--greyer);
 }
 
-
-/* Navigation Bar */
-.navigationBar {
-    align-items: center;
-    box-shadow: 0 3px 15px var(--shadow);
-    display: flex;
-    justify-content: right;
-    padding: 15px 5%;
+body {
+    background-color: var(--dark);
+    font-family: 'Poppins', sans-serif;
 }
 
-.navigationLinks {
+.navigation-bar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px 50%;
+}
+.navigation-links {
     display: flex;
     list-style: none;
 }
-
-.navigationLinks li {
-    padding: 0px 35px;
+.navigation-links li {
+    padding: 0px 50px;
+}
+.navigation-links a {
+    color: var(--light);
 }
 
-.navigationLinks a {
+.content {
+    display: table;
+    font-family: 'Poppins', sans-serif;
+    height: 950px;
+    margin: 15px 15px;
+    max-width: 666.6px;
+    text-align: left;
+    width: 533.3px;
+}
+.content-main {
+    height: 600px;
+    left: 50%;
+    position: absolute;
+    margin-left: -262.5px;
+    margin-top: 0px;
+    top: 50%;
+    width: 525px;
+}
+.content-main h1 {
     color: var(--light);
+    font-size: 23px;
+}
+.content-main p {
+    color: var(--greyer);
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+}
+.footer a {
+    color: #838383;
     text-decoration: none;
 }

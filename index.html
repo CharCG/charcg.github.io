@@ -5,54 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CharCG</title>
-
     <meta name="theme-color" content="#FFFFFF">
 
-    <!-- JavaScript & CSS -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <link rel="stylesheet" href="css/index.css">
+    <!-- CSS % JavaScript -->
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <div class="navigationBar">
-        <nav>
-            <ul class="navigationLinks">
-                <li><a id="home" href="#">Home</a></li>
-                <li><a id="about" href="html/about.html">About</a></li>
-                <li><a id="project" href="html/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+    <div class="root">
+        <!-- Navigation Bar -->
+        <div class="navigation-bar">
+            <nav>
+                <ul class="navigation-links">
+                    <li><a href="/">/</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Talk</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!-- Content -->
+        <div class="content">
+            <!-- Main -->
+            <div class="content-main">
+                <h1>Hey, I'm <span class="typed"></span> 👋</h1>
+                <p>I'm a <span class="age"></span> years old high school student from Indonesia. I'm interested in website development, including npm packages, etc.</p>
+            </div>
+
+            <!-- Technologies -->
+            <div class="content-tech"></div>
+        </div>
     
 
-    <!-- Introduction -->
-    <div class="introduction">
-        <div class="paragraph">
-            <h3>Hey there, I'm <span class="typed"></span></h3>
-            <p>I'm a 15,48 years old hobbyist, enthusiast, and self-taught developer from Indonesia. I do love listening to Spotify.</p>
-        </div>
-    </div>
-    
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-icon"></div>
 
-
-    <!-- Footer -->
-    <div class="footer">
-        <div class="icon">
-            <a href="https://github.com/charcg"><i class="fa-brands fa-github fa-2x"></i></a>
-            <a href="https://discordapp.com/users/332506969082429450"><i class="fa-brands fa-discord fa-2x"></i></a>
-            <a href="https://twitter.com/charlescong3"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            <footer>
+                <a href="/">Copyright 2022 Charles</a>
+            </footer>
         </div>
 
-        <footer>
-            <a href="/">© 2022 CharCG</a>
-        </footer>
+        <!-- Theme Switch -->
+        <div class="theme-switch"></div>
+
+        <!-- JavaScript -->
+        <script src="js/index.js"></script>
+        <script src="https://kit.fontawesome.com/4e47d91177.js" crossorigin="anonymous"></script>
     </div>
-
-
-    <!-- JavaScript -->
-    <script src="js/index.js"></script>
-    <script src="https://kit.fontawesome.com/4e47d91177.js" crossorigin="anonymous"></script>
 </body>
 </html>

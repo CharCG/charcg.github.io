@@ -8,7 +8,7 @@
     --greyer: #777777;
     --shadow: #000;
 
-    --main: #39ACE7;
+    --main: #ffffff;
 }
 
 body {
@@ -55,25 +55,7 @@ body {
     padding: 0px 35px;
 }
 
-.navigationLinks li a:hover {
-    color: var(--main);
-}
-
 .navigationLinks a {
     color: var(--light);
     text-decoration: none;
-}
-
-.navigationLinks a::after {
-    background: var(--light);
-    content: "";
-    display: block;
-    height: 2px;
-    transition: width .3s;
-    width: 0;
-}
-
-.navigationLinks a:hover::after {
-    width: 100%;
-    transition: width .3s;
 }

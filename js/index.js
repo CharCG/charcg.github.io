@@ -9,8 +9,8 @@ function typed() {
     try {
         new Typed(".typed", {
             strings: [
-                "Charles",
-                "CharCG"
+                "I'm Charles 🧙‍♂️",
+                "you can call me Char 👋"
             ],
             typeSpeed: 100,
             backSpeed: 50,

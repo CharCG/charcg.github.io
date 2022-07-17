@@ -55,8 +55,8 @@ body {
     align-items: center;
     box-shadow: 0 3px 15px var(--shadow);
     display: flex;
-    justify-content: left;
-    padding: 15px 50%;
+    justify-content: right;
+    padding: 15px 250px;
 }
 /* .navigation-bar .icons {
     display: flex;
@@ -79,7 +79,6 @@ body {
 .navigation-links a {
     color: var(--light);
     text-decoration: none;
-    /* font-family: 'Source Code Pro', monospace; */
 }
 .navigation-bar a:hover {
     color: var(--main);

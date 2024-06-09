@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Charles"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Charles"
+name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://charcg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "charcg/charcg.github.io"
+repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,11 +22,11 @@ repository               : "charcg/charcg.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Charles"
-  pronouns         : "he/him" # example: "she/her"  
-  bio              : "Undergraduate Computer Science Student at BINUS University | B’28"
-  location         : "Jakarta, Indonesia"
-  employer         : "Bina Nusantara (BINUS) University"
+  name             : "Your Sidebar Name"
+  pronouns         : # example: "she/her"  
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
 
@@ -43,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "charcg"
+  github           : "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
